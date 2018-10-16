@@ -13,6 +13,11 @@
 		7720BE18216B0A100045A853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7720BE17216B0A100045A853 /* Assets.xcassets */; };
 		7720BE1B216B0A100045A853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7720BE19216B0A100045A853 /* LaunchScreen.storyboard */; };
 		7720BE1E216B0A100045A853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720BE1D216B0A100045A853 /* main.m */; };
+		7720BE28216B0AC60045A853 /* qyJiFen@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7720BE24216B0AC30045A853 /* qyJiFen@1x.png */; };
+		7720BE29216B0AC60045A853 /* qyJiFen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7720BE25216B0AC50045A853 /* qyJiFen@2x.png */; };
+		7720BE2A216B0AC60045A853 /* qyMyCredit@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7720BE26216B0AC50045A853 /* qyMyCredit@1x.png */; };
+		7720BE2B216B0AC60045A853 /* qyMyCredit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7720BE27216B0AC60045A853 /* qyMyCredit@2x.png */; };
+		7720BE2E216B0B5B0045A853 /* QYCreditFinishHintAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7720BE2D216B0B5B0045A853 /* QYCreditFinishHintAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,12 @@
 		7720BE1A216B0A100045A853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7720BE1C216B0A100045A853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7720BE1D216B0A100045A853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7720BE24216B0AC30045A853 /* qyJiFen@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qyJiFen@1x.png"; sourceTree = "<group>"; };
+		7720BE25216B0AC50045A853 /* qyJiFen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qyJiFen@2x.png"; sourceTree = "<group>"; };
+		7720BE26216B0AC50045A853 /* qyMyCredit@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qyMyCredit@1x.png"; sourceTree = "<group>"; };
+		7720BE27216B0AC60045A853 /* qyMyCredit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qyMyCredit@2x.png"; sourceTree = "<group>"; };
+		7720BE2C216B0B5B0045A853 /* QYCreditFinishHintAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYCreditFinishHintAnimation.h; sourceTree = "<group>"; };
+		7720BE2D216B0B5B0045A853 /* QYCreditFinishHintAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYCreditFinishHintAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,10 @@
 		7720BE0D216B0A0A0045A853 /* AnimateTest */ = {
 			isa = PBXGroup;
 			children = (
+				7720BE24216B0AC30045A853 /* qyJiFen@1x.png */,
+				7720BE25216B0AC50045A853 /* qyJiFen@2x.png */,
+				7720BE26216B0AC50045A853 /* qyMyCredit@1x.png */,
+				7720BE27216B0AC60045A853 /* qyMyCredit@2x.png */,
 				7720BE0E216B0A0A0045A853 /* AppDelegate.h */,
 				7720BE0F216B0A0A0045A853 /* AppDelegate.m */,
 				7720BE11216B0A0A0045A853 /* ViewController.h */,
@@ -67,6 +82,8 @@
 				7720BE19216B0A100045A853 /* LaunchScreen.storyboard */,
 				7720BE1C216B0A100045A853 /* Info.plist */,
 				7720BE1D216B0A100045A853 /* main.m */,
+				7720BE2C216B0B5B0045A853 /* QYCreditFinishHintAnimation.h */,
+				7720BE2D216B0B5B0045A853 /* QYCreditFinishHintAnimation.m */,
 			);
 			path = AnimateTest;
 			sourceTree = "<group>";
@@ -128,6 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7720BE2B216B0AC60045A853 /* qyMyCredit@2x.png in Resources */,
+				7720BE28216B0AC60045A853 /* qyJiFen@1x.png in Resources */,
+				7720BE29216B0AC60045A853 /* qyJiFen@2x.png in Resources */,
+				7720BE2A216B0AC60045A853 /* qyMyCredit@1x.png in Resources */,
 				7720BE1B216B0A100045A853 /* LaunchScreen.storyboard in Resources */,
 				7720BE18216B0A100045A853 /* Assets.xcassets in Resources */,
 				7720BE16216B0A0A0045A853 /* Main.storyboard in Resources */,
@@ -142,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7720BE13216B0A0A0045A853 /* ViewController.m in Sources */,
+				7720BE2E216B0B5B0045A853 /* QYCreditFinishHintAnimation.m in Sources */,
 				7720BE1E216B0A100045A853 /* main.m in Sources */,
 				7720BE10216B0A0A0045A853 /* AppDelegate.m in Sources */,
 			);
@@ -288,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TWFBYM83P;
 				INFOPLIST_FILE = AnimateTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TWFBYM83P;
 				INFOPLIST_FILE = AnimateTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
